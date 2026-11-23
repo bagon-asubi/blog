@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "asubi-laboという名前に込めた思い"
-date: 2024-06-03 17:46:00 +0900
+date: 2024-06-01 17:46:00 +0900
 tags: [asubi-labo, career, engineering]
 ---
 
