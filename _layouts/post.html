@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<article class="article-wrap">
+  <div style="margin-bottom: 12px;">
+    <a href="{{ '/' | relative_url }}" class="btn-pill">← タイムラインへ戻る</a>
+  </div>
+
+  <h1 class="article-title">{{ page.title }}</h1>
+
+  <div class="article-meta">
+    <span>{{ site.title }} ({{ site.handle }})</span>
+    <span> · {{ page.date | date: "%Y-%m-%d %H:%M" }}</span>
+    {% if page.tags and page.tags.size > 0 %}
+      <div class="post-tags" style="margin-top: 8px;">
+        {% for tag in page.tags %}
+          <span class="post-tag">#{{ tag }}</span>
+        {% endfor %}
+      </div>
+    {% endif %}
+  </div>
+
+  <div class="article-content">
+    {{ content }}
+  </div>
+</article>
