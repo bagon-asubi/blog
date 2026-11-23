@@ -1,5 +1,10 @@
-title: bagon-asubi Blog
-description: 技術者ブログ
-theme: minima
+title: bagon-asubi
+handle: "@bagon-asubi"
+description: "開発メモ・技術ログ・日々の思考"
 url: "https://bagon-asubi.github.io"
 baseurl: "/blog"
+corp_url: "https://asubi-labo.github.io/"
+corp_name: "asubi-labo"
+
+markdown: kramdown
+permalink: /posts/:year-:month-:day-:slug/
