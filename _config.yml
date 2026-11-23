@@ -1,0 +1,5 @@
+title: bagon-asubi Blog
+description: 技術者ブログ
+theme: minima
+url: "https://bagon-asubi.github.io"
+baseurl: "/blog"
